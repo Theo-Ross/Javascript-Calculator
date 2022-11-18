@@ -33,23 +33,8 @@
 
 }
 
-.numbers2 {
-    background-color: $secondary-color;
-    color: $color-black;
-    border-radius: 100%;
-    margin: 0.5rem;
-    font-size: 2.5rem;
-}
-
-.numbers3 {
-    background-color: $tertiary-color;
-    color: $color-white;
-    border-radius: 60%;
-    margin: 0.5rem;
-    font-size: 2.5rem;
 
 
-}
 
     .number {
     
@@ -89,25 +74,46 @@
 
 }
 
-.product {
+
+.operators {
+    background-color: $secondary-color;
+    color: $color-black;
+    border-radius: 100%;
+    margin: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.operator {
 
 
 
-    &__product-divide { grid-area: 2 / 4 / 3 / 5; }
+    &__divide { grid-area: 2 / 4 / 3 / 5; }
 
-    &__product-x { grid-area: 3 / 4 / 4 / 5; }
+    &__x { grid-area: 3 / 4 / 4 / 5; }
 
     &__prduct-minus { grid-area: 4 / 4 / 5 / 5; }
 
-    &__product-plus { grid-area: 5 / 4 / 6 / 5; }
+    &__plus { grid-area: 5 / 4 / 6 / 5; }
 
-    &__product-equals { grid-area: 6 / 4 / 7 / 5; }
+    &__equals { grid-area: 6 / 4 / 7 / 5; }
 
-    &__grey-C { grid-area: 2 / 1 / 3 / 2; }
+    &__grey-C { grid-area: 2 / 1 / 3 / 2; 
+    }
 
-    &__grey-symbol { grid-area: 2 / 2 / 3 / 3; }
+    &__grey-symbol { grid-area: 2 / 2 / 3 / 3; 
+    
+       }
 
-    &__grey-percent { grid-area: 2 / 3 / 3 / 4; }
+    &__grey-percent { grid-area: 2 / 3 / 3 / 4; 
+        }
+
+        &__grey {
+            background-color: $secondary-color;
+            color: $color-black;
+            border-radius: 100%;
+            margin: 0.5rem;
+            font-size: 2.5rem;
+        }
 
 }
 
