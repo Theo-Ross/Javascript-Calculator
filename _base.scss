@@ -1,8 +1,12 @@
 
 
 
-$background-color: #000000;
+$color-black: #000000;
+$color-white: #ffff;
 $primary-color: #2d2d2d;
 $secondary-color: #9b9b9b;
 $tertiary-color: #ef8e31;
 
+* {
+    background-color: $color-black;
+}
