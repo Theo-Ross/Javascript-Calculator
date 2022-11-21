@@ -74,9 +74,15 @@ buttonPercent.addEventListener("click", makePercent)
 
 
 const changeValue = (event) => {
-    number = Number(display.innerHTML);
-    number = -Math.abs(number);
-    display.innerHTML = number;
+     number = Number(display.innerHTML);
+    if (display.innerHTML.includes("-")) { 
+        number = Math.abs(number);
+        display.innerHTML = number;
+    } else {
+        number = -Math.abs(number);
+        display.innerHTML = number;
+    }
+   
 }
 
 buttonSymbol.addEventListener("click", changeValue)
