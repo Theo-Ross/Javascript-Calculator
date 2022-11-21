@@ -70,7 +70,16 @@ const makePercent = (event) => {
 buttonPercent.addEventListener("click", makePercent)
 
 
+// positive - negative function 
 
+
+const changeValue = (event) => {
+    number = Number(display.innerHTML);
+    number = -Math.abs(number);
+    display.innerHTML = number;
+}
+
+buttonSymbol.addEventListener("click", changeValue)
 
 
   // equals button
