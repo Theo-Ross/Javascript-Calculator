@@ -15,7 +15,7 @@ let display2 = document.querySelector(".display2");
 let number = "";
 let symbol = "";
 
-//buttons
+// number button
 
 buttons.forEach((event) => {
   event.addEventListener("click", () => {
@@ -24,7 +24,7 @@ buttons.forEach((event) => {
   console.log(display.innerHTML);
 });
 
-// function buttons
+// clear button
 
 buttonC.addEventListener("click", () => {
   display.innerHTML = "";
@@ -35,10 +35,8 @@ buttonC.addEventListener("click", () => {
 // operator buttons
 
 const makeSum = (event) => {
-  number = Number(display.innerHTML);
-
+  number = Number(display.innerHTML) + " ";
   symbol = event.target.innerHTML;
-
   display2.innerHTML = number + symbol;
   display.innerHTML = "";
 };
