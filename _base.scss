@@ -1,12 +1,8 @@
-
-
-
-$color-black: #000000;
-$color-white: #ffff;
-$primary-color: #2d2d2d;
-$secondary-color: #9b9b9b;
-$tertiary-color: #ef8e31;
+@use "./variables.scss" as *;
 
 * {
-    background-color: $color-black;
+  background-color: $color-black;
+  margin: 0;
+  color: $color-white;
+  padding: 0;
 }
