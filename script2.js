@@ -35,9 +35,9 @@ buttonC.addEventListener("click", () => {
 // operator buttons
 
 const makeSum = (event) => {
-  number = Number(display.innerHTML) + " ";
+  number = Number(display.innerHTML);
   symbol = event.target.innerHTML;
-  display2.innerHTML = number + symbol;
+  display2.innerHTML = number + " " + symbol;
   display.innerHTML = "";
 };
 
@@ -82,6 +82,7 @@ const makeAnswer = () => {
     number *= Number(display.innerHTML);
     display.innerHTML = number;
   } else if (symbol === "+") {
+    console.log(typeof number)
     number += Number(display.innerHTML);
     display.innerHTML = number;
   } else if (symbol === "-") {
