@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@500&display=swap");
+* {
+  background-color: #000000;
+  margin: 0;
+  color: white;
+  padding: 0;
+}
+
+body {
+  font-family: "Alexandria", sans-serif;
+}
+
+.displays {
+  grid-area: 1/1/2/5;
+}
+
+.display {
+  border: 2px solid white;
+  height: 45%;
+  font-size: 30px;
+  justify-content: right;
+  width: 95%;
+}
+
+.display2 {
+  border: 2px solid white;
+  height: 33%;
+  justify-content: right;
+  width: 95%;
+}
+
+.button__div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.button__input {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.numbers {
+  color: white;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  height: 13.5vh;
+  margin: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.number {
+  color: white;
+  border-radius: 100%;
+}
+.number__1 {
+  grid-area: 5/1/6/2;
+}
+.number__2 {
+  grid-area: 5/2/6/3;
+}
+.number__3 {
+  grid-area: 5/3/6/4;
+}
+.number__4 {
+  grid-area: 4/1/5/2;
+}
+.number__5 {
+  grid-area: 4/2/5/3;
+}
+.number__6 {
+  grid-area: 4/3/5/4;
+}
+.number__7 {
+  grid-area: 3/1/4/2;
+}
+.number__8 {
+  grid-area: 3/2/4/3;
+}
+.number__9 {
+  grid-area: 3/3/4/4;
+}
+.number__0 {
+  grid-area: 6/1/7/3;
+  border-radius: 40%;
+}
+.number__dot {
+  grid-area: 6/3/7/4;
+}
+
+.operators {
+  background-color: #9b9b9b;
+  color: #000000;
+  border-radius: 100%;
+  margin: 0.5rem;
+  font-size: 2.5rem;
+}
+.operators__2 {
+  background-color: #ef8e31;
+  color: #000000;
+  border-radius: 100%;
+  margin: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.operator__divide {
+  grid-area: 2/4/3/5;
+}
+.operator__x {
+  grid-area: 3/4/4/5;
+}
+.operator__minus {
+  grid-area: 4/4/5/5;
+}
+.operator__plus {
+  grid-area: 5/4/6/5;
+}
+.operator__equals {
+  grid-area: 6/4/7/5;
+}
+.operator__grey-C {
+  grid-area: 2/1/3/2;
+}
+.operator__grey-symbol {
+  grid-area: 2/2/3/3;
+}
+.operator__grey-percent {
+  grid-area: 2/3/3/4;
+}
+.operator__grey {
+  background-color: #9b9b9b;
+  color: #000000;
+  border-radius: 100%;
+  margin: 0.5rem;
+  font-size: 2.5rem;
+}/*# sourceMappingURL=main.css.map */
